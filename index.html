@@ -1,0 +1,129 @@
+<head><title>My website</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  40px 250px 50px;
+		border: solid cyan 2px;}
+		
+	.header{background-color:#00ffff;
+	    font-size: 2em;
+		border: solid cyan 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:#ffff00;
+	    font-size: 20px;
+		border: solid cyan 1px;
+		text-align: center;
+		padding:10px;
+		}
+		
+	.main{background-color:#ffffff;
+	    font-size: 1em;
+		border: solid cyan 1px;
+		text-align: center;}
+		
+	.footer{background-color:ff0000;
+	    font-size: 25px;
+		border: solid cyan 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+		
+	@media only screen and (max-width: 600px) {
+	
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  75px 375px 75px;
+		border: solid cyan 2px;}
+		
+	.header{background-color:#00ffff;
+	    font-size: 2em;
+		border: cyan 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:#ffff00;
+	    font-size: 25px;
+		border: solid cyan 1px;
+		text-align: center;
+		}
+		
+	.main{background-color:#ffffff;
+	    font-size: 1em;
+		border: solid cyan 1px;
+		text-align: center;}
+		
+	.footer{background-color:ff0000;
+	    font-size: 20px;
+		border: solid cyan 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+	}
+	
+	@media only screen and (max-width: 350px) {
+	
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  100px 500px 100px;
+		border: solid cyan 2px;}
+		
+	.header{background-color:#00ffff;
+	    font-size: 2em;
+		border: solid black 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:#ffff00;
+	    font-size: 30px;
+		border: solid cyan 1px;
+		text-align: center;
+		}
+		
+	.main{background-color:#ffffff;
+	    font-size: 1em;
+		border: solid cyan 1px;
+		text-align: center;}
+		
+	.footer{background-color:ff0000;
+	    font-size: 20px;
+		border: solid cyan 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">Header</div>
+<div class="nav">
+     Navigation 
+	 <ul style="list-style-type:disc;">
+	 <li><a href="hobby.html"> Hobbies</a></li>
+	 <li><a href="Favorite.html"> Favorite food</a></li>
+	 <li><a href="school.html">school</a></li>
+	  <li><a href="family.html">family</a></li>
+	    <li><a href="SaranaVersiglia PT.html">Back</a></li>
+	 </ul>
+</div>
+<div class="main">
+    <h1>My website</h1>
+<p class="p"> This is a website about my life.It tells about my story in life that talks about. hobbies,school,,favoriet foods, and family</p>
+
+<img src="Me.jpg" width="100px" height="100px">
+</div>
+<div class="footer">carl vince sarana</div>
+</div>
+
+
+</body>
